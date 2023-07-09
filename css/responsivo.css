@@ -1,0 +1,167 @@
+@media only screen and (max-width:480px) {
+
+    .navbar {
+        display: block;
+        align-items: center;
+        height: 250px;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+    .menu a{
+        display: block;
+        text-align: center;
+        padding: 6px;
+    }
+
+    .header{
+       display: flex;
+       flex-flow: column wrap;
+       text-align: center;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    section {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+        margin: 0%;
+        padding: 5px;
+    }
+
+}    
+
+
+@media only screen and (max-width:600px) {
+    
+    .navbar {
+        display: flex;
+        flex-flow: column wrap;
+        height: 150px;
+    }
+
+    .header{
+       display: flex;
+       flex-flow: column wrap;
+       text-align: center;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+        margin: 5%;
+    }
+
+    .card:hover {
+        background-color:  rgba(0, 0, 0, 0.123);
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .navbar {
+        display: flex;
+        flex-flow: column wrap;
+        height: 170px;
+    }
+
+    .header{
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+     }
+
+     .img img {
+        width: 600px;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+        margin: 5%;
+    }
+
+    .card:hover {
+        background-color:  rgba(0, 0, 0, 0.123);
+        position: relative;
+        bottom: 20px;
+        padding: 43px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .navbar {
+        display: flex;
+        flex-flow: column wrap;
+        height: 170px;
+    }
+
+    .header{
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+     }
+
+     .img img {
+        width: 100%;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .card:hover {
+        background-color:  rgba(0, 0, 0, 0.123);
+        position: relative;
+        bottom: 20px;
+        padding: 43px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .navbar {
+        display: flex;
+        flex-flow: row wrap;
+        height: 100px;
+    }
+
+    .header{
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+     }
+
+     .img img {
+        width: 100%;
+    }
+
+    .servicos {
+        display: flex;
+    }
+
+    .card:hover {
+        background-color:  rgba(0, 0, 0, 0.123);
+        position: relative;
+        bottom: 20px;
+        padding: 43px;
+    }
+}
